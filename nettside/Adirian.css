@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.profile-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 90%;
+    margin: 30px auto 0;
+}
+
+.profilbilde {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+body > p,
+.section {
+    width: 90%;
+    margin: auto;
+}
+
+body > p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.section {
+    margin-top: 35px;
+}
+
+.section h2 {
+    margin-bottom: 18px;
+}
+
+body > h2 {
+    margin: 28px auto 14px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.molde {
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.molde img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.moldejazz img {
+    object-fit: contain;
+}
+
+.molde p {
+    margin: 0;
+    font-size: 1rem;
+}
+

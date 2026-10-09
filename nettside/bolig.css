@@ -1,43 +1,91 @@
-        #boligar {
-            margin: 20px;
-            position: absolute;
-            left: 225px;
-            top: 150px;
-            display: grid;
-            grid-template-columns: auto auto auto;
-            padding: 10px;
-            gap: 100px;
-        }
-        #boligar div {
-            background-color: #f1f1f1;
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
-            height: 300px;
-            width: 180px;
-        }
-        #bildeAvBolig {
-            width: 150px;
-            height: 150px;
-            background-color: rgb(66, 66, 66);
-            border: 5px solid black;
-        }
-        #filterMeny{
-            position: absolute;
-            width: 80px;
-            height: 800px;
-            background-color: orange;
-        }
-        footer {
-            bottom: -400px;
-        }
-        #tekst {
-            position: absolute;
-            width: 200px;
-            padding-bottom: 10px;
-            padding-left: 50px;
-            height: 50px;
-            background-color: rgb(224, 224, 224);
-            left: 525px;
-            top: 100px;
-        }
+
+/* Hovedoppsett for boligsiden */
+.boligLayout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 30px;
+    margin: 20px;
+    align-items: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Filtermenyen */
+#filterMeny {
+    background-color: #c4a32b;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#filterMeny h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#filterMeny label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#filterMeny select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    background-color: white;
+}
+
+/* Overskrift over boligene */
+#tekst {
+    margin-bottom: 20px;
+}
+
+#tekst h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Plassering av boligkortene */
+#boligar {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+}
+
+/* Utseendet til boligkortene */
+#boligar > div {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Bildene på boligkortene */
+.bildeAvBolig {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Enkel tilpasning for mindre skjermer */
+@media (max-width: 850px) {
+    .boligLayout {
+        grid-template-columns: 1fr;
+    }
+
+    #boligar {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 500px) {
+    #boligar {
+        grid-template-columns: 1fr;
+    }
+}

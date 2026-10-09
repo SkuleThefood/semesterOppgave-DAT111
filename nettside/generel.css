@@ -10,35 +10,75 @@
             width: 100%;
             height: 70px;
         }
-        #home {
-            top: 22px; 
-            left: 15px; 
-            position: absolute;
+
+        #home:hover {
+            background-color: #757575;
         }
+        #omProjektet:hover {
+            background-color: #757575;
+        }
+        #oppussing:hover {
+            background-color: #757575;
+        }
+        #bolig:hover {
+            background-color: #757575;
+        }
+        #kontaktOss:hover {
+            background-color: #757575;
+        }
+
         #link {
-            color: black; 
+            color: black;
             text-decoration-line: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #home {
+            top: 15px;
+            left: 15px;
+            padding: 10px;
+            position: absolute;
+            background-color: #919191;
+            border-radius: 20px;
+            line-height: 1.0;
         }
         #omProjektet {
-            top: 22px; 
-            left: 970px; 
+            left: 970px;
+            top: 15px;
+            padding: 10px;
             position: absolute;
+            background-color: #919191;
+            border-radius: 20px;
+            line-height: 1.0;
         }
         #bolig {
-            top: 22px; 
-            left: 840px; 
+            left: 840px;
+            top: 15px;
+            padding: 10px;
             position: absolute;
+            background-color: #919191;
+            border-radius: 20px;
+            line-height: 1.0;
         }
         #oppussing {
-            top: 22px; 
-            left: 680px; 
+            left: 680px;
+            top: 15px;
+            padding: 10px;
             position: absolute;
+            background-color: #919191;
+            border-radius: 20px;
+            line-height: 1.0;
         }
         #kontaktOss {
-            top: 22px; 
-            left: 1140px; 
+            left: 1140px;
+            top: 15px;
+            padding: 10px;
             position: absolute;
+            background-color: #919191;
+            border-radius: 20px;
+            line-height: 1.0;
         }
+
         footer {
             width: 100%;
             height: 80px;
@@ -50,4 +90,6 @@
             position: absolute;
             left: 30px;
             top: 15px;
+            width: 90% !important;
+            font-family: Arial, Helvetica, sans-serif;
         }

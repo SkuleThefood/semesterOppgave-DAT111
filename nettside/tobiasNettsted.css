@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    box-sizing: border-box;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("./bilde/tobias-fotball.png") center / cover no-repeat;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.profilkort {
+    max-width: 640px;
+    padding: 32px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.68);
+    text-align: center;
+}
+
+.profilkort h1 {
+    margin-top: 0;
+}
+
+.profilkort a {
+    color: white;
+}

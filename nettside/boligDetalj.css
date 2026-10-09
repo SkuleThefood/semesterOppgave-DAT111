@@ -1,0 +1,33 @@
+.boligdetalj {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    max-width: 1100px;
+    margin: 40px auto 120px;
+    padding: 0 24px;
+}
+
+.boligdetalj img {
+    display: block;
+    width: min(55%, 640px);
+    height: auto;
+}
+
+.boligdetalj section {
+    max-width: 420px;
+}
+
+.boligdetalj h1 {
+    margin-top: 0;
+}
+
+@media (max-width: 700px) {
+    .boligdetalj {
+        flex-direction: column;
+        margin-top: 24px;
+    }
+
+    .boligdetalj img {
+        width: 100%;
+    }
+}

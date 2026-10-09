@@ -2,6 +2,7 @@
 <html lang="no">
     <head>
         <title>BIB-Bolig</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./generel.css">
         <link rel="stylesheet" href="./bolig.css">
     </head>
@@ -23,50 +24,88 @@
                 <a href="./kontaktOss.html" id="link">Kontakt oss</a>
             </div>
         </header>
-        <div id="filterMeny">
-            filter
-        </div>
-        <div id="tekst">
-            <h3>Boligar til salgs</h3>
-        </div>
-        <div id="boligar">
-             <div>
-                <img src="./bilde/redbuttonTEMP.png" alt="redTEMP" id="bildeAvBolig">
-                <h3>Hus - 5 000 000</h3>
-                <p>Fantastiskt hus til barre 5 000 000, bla bla bla</p>
-                <a href="">Meir informasjon?</a>
-            </div>            
-            <div>
-                <img src="./bilde/redbuttonTEMP.png" alt="redTEMP" id="bildeAvBolig">
-                <h3>Hus - 5 000 000</h3>
-                <p>Fantastiskt hus til barre 5 000 000, bla bla bla</p>
-                <a href="">Meir informasjon?</a>
-            </div>            
-            <div>
-                <img src="./bilde/redbuttonTEMP.png" alt="redTEMP" id="bildeAvBolig">
-                <h3>Hus - 5 000 000</h3>
-                <p>Fantastiskt hus til barre 5 000 000, bla bla bla</p>
-                <a href="">Meir informasjon?</a>
-            </div>            
-            <div>
-                <img src="./bilde/redbuttonTEMP.png" alt="redTEMP" id="bildeAvBolig">
-                <h3>Hus - 5 000 000</h3>
-                <p>Fantastiskt hus til barre 5 000 000, bla bla bla</p>
-                <a href="">Meir informasjon?</a>
-            </div>            
-            <div>
-                <img src="./bilde/redbuttonTEMP.png" alt="redTEMP" id="bildeAvBolig">
-                <h3>Hus - 5 000 000</h3>
-                <p>Fantastiskt hus til barre 5 000 000, bla bla bla</p>
-                <a href="">Meir informasjon?</a>
-            </div>            
-            <div>
-                <img src="./bilde/redbuttonTEMP.png" alt="redTEMP" id="bildeAvBolig">
-                <h3>Hus - 5 000 000</h3>
-                <p>Fantastiskt hus til barre 5 000 000, bla bla bla</p>
-                <a href="">Meir informasjon?</a>
+        <main class="boligLayout">
+            <aside id="filterMeny">
+                <h2>Filtrer boliger</h2>
+                    <label for="boligtype">Boligtype:</label>
+                    <select id="boligtype" name="boligtype">
+                        <option value="alle">Alle boliger</option>
+                        <option value="enebolig">Enebolig</option>
+                        <option value="leilighet">Leilighet</option>
+                        <option value="rekkehus">Rekkehus</option>
+                    </select>
+                    <label for="pris">Makspris:</label>
+                    <select id="pris" name="pris">
+                        <option value="alle">Alle priser</option>
+                        <option value="3000000">3 000 000 kr</option>
+                        <option value="5000000">5 000 000 kr</option>
+                        <option value="7000000">7 000 000 kr</option>
+                    </select>
+            </aside>
+        <section class="boligInnhold">
+            <div id="tekst">
+                <h3>Boligar til salgs</h3>
             </div>
-        </div>
+            <div id="boligar">
+                <div>
+                    <img src="./bilde/laksevag-hus.png" alt="Bilde av enebolig" class="bildeAvBolig">
+                    <h3>Sjarmerende bolig på Laksevåg!</h3>
+                    <p>Adresse: Monrad Mjeldes vei 39 A, 5161 Laksevåg</p>
+                    <p>Prisantydning: 8 500 000 kr</p>
+                    <p>Størrelse: 150 m²</p>
+                    <p>Soverom: 2</p>
+                    <a href="./boligDetalj.html">Meir info?</a>
+                </div>
+                <div>
+                    <img src="./bilde/bolig2MatBilde.jpg" alt="Bilde av kosleg Leiligheit" class="bildeAvBolig">
+                    <h3>Leiligheit ved kanten av Espeland</h3>
+                    <p>Adresse: Londalen 111</p>
+                    <p>Pris: 3 200 000 kr</p>
+                    <p>Størrelse: 10 m²</p>
+                    <p>Soverom: 1</p>
+                    <a href="./bolig2Mat.html">Meir info?</a>
+                </div>
+                <div>
+                    <img src="./bilde/Enebolig.png"
+                         alt="Bilde av enebolig"
+                         class="bildeAvBolig">
+
+                    <h3>Enebolig på Fana</h3>
+
+                    <p>Adresse: Fana, Bergen</p>
+                    <p>Pris: 5 000 000 kr</p>
+                    <p>Størrelse: 150 m²</p>
+                    <p>Soverom: 3</p>
+                    <a href="./Fana.html">Mer informasjon</a>
+                </div>
+
+                <div>
+                    <img src="./bilde/enebolig2.png" alt="Bilde av enebolig i Fyllingsdalen" class="bildeAvBolig">
+                    <h3>Enebolig i Fyllingsdalen</h3>
+                    <p>Adresse: Fyllingsdalen, Bergen</p>
+                    <p>Pris: 6 200 000 kr</p>
+                    <p>Størrelse: 180 m²</p>
+                    <p>Soverom: 4</p>
+                </div>
+                <div>
+                    <img src="./bilde/leilighet2.png" alt="Bilde av leilighet på Laksevåg" class="bildeAvBolig">
+                    <h3>Leilighet på Laksevåg</h3>
+                    <p>Adresse: Laksevåg, Bergen</p>
+                    <p>Pris: 2 800 000 kr</p>
+                    <p>Størrelse: 55 m²</p>
+                    <p>Soverom: 1</p>
+                </div>
+                <div>
+                    <img src="./bilde/rekkehus2.png" alt="Bilde av rekkehus på Nesttun" class="bildeAvBolig">
+                    <h3>Rekkehus på Nesttun</h3>
+                    <p>Adresse: Nesttun, Bergen</p>
+                    <p>Pris: 5 500 000 kr</p>
+                    <p>Størrelse: 135 m²</p>
+                    <p>Soverom: 3</p>
+                </div>
+            </div>
+        </section>
+        </main>
         <footer>
             <p id="footerText">©2026 Bolig i Bergen A/S - semesteroppgave DAT111 gruppe 17</p>
         </footer>

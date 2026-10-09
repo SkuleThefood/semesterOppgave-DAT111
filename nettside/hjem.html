@@ -1,55 +1,54 @@
 <!DOCTYPE html>
 <html lang="no">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hjem</title>
-</head>
-<body>
-<div>
-
-    <h1>Bolig i Bergen A/S</h1>
-    <a href="./hjem.html"> Hjem</a>
-    <a href="./oppussing.html"> Oppussing</a>
-    <a href="./bolig.html"> Bolig</a>
-    <a href="./omProjektet.html"> Om prosjektet</a>
-    <a href="./kontaktOss.html"> Kontakt oss</a>
-
-</div>
-
-<hr><br>
-
-<div>
-    <center>
-    <img src="bilde/hjem3.jpg" width="60%"><!--vi må finne et bagrunnsbilde også ha teksten over--> 
-    </center>
-    <p>Din trygge partner for bolig i Bergen</p>
-    <h2>Velkommen til Bolig i Bergen A/S</h2>
-</div>
-
-<br>
-
-<p>
-    Bolig i Bergen A/S er en informasjonsside for deg som eier eller vurderer å kjøpe    bolig i Bergen. 
-    Her finner du informasjon og tips om oppussing, vedlikehold, produkter, tjenester og økonomi knyttet til bolig. 
-    Målet vårt er å gjøre det enklere å finne nyttig og relevant boliginformasjon på ett sted.
-
-</p>
-<h2>Hva tilbyr vi?</h2>
-<ul>
-    <li>Informasjon om boliger til salgs</li>
-    <li>Tips og råd om oppussing</li>
-    <li>Vedlikehold av bolig</li>
-    <li>Informasjon om boligøkonomi</li>
-    <li>Kontaktinformasjon til Bolig i Bergen A/S</li>
-</ul>
-
-
-
-<hr>
-<footer>
-<p>©2026 Bolig i Bergen A/S - semesteroppgave Dat 111 gruppe 17</p>
-</footer>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hjem</title>
+        <link rel="stylesheet" href="./generel.css">
+        <link rel="stylesheet" href="./hjem.css">
+    </head>
+    <body>
+        <header> <!-- Lenker til dei ulike hovedsidane-->
+            <div id="home">
+                <a href="./hjem.html" id="link">Bolig i Bergen (BiB) A/S</a>
+            </div>
+            <div id="oppussing">
+                <a href="./oppussing.html" id="link">Oppussing</a>
+            </div>
+            <div id="bolig">
+                <a href="./bolig.html" id="link">Bolig</a>
+            </div>
+            <div id="omProjektet">
+                <a href="./omProjektet.html" id="link">Om Projektet</a>
+            </div>
+            <div id="kontaktOss">
+                <a href="./kontaktOss.html" id="link">Kontakt oss</a>
+            </div>
+        </header>
+        <div id="imgContainer">
+            <img src="bilde/hjem3.jpg" id="img">
+            <!--vi må finne et bakgrunnsbilde-->
+            <p id="centeredText">Din trygge partner for bolig i Bergen</p>
+        </div>
+        <div id="tekst">
+            <h1>Velkommen til Bolig i Bergen A/S</h1>
+            <p>
+                Bolig i Bergen A/S er en informasjonsside for deg som eier eller vurderer å kjøpe    bolig i Bergen.
+                Her finner du informasjon og tips om oppussing, vedlikehold, produkter, tjenester og økonomi knyttet til bolig.
+                Målet vårt er å gjøre det enklere å finne nyttig og relevant boliginformasjon på ett sted.
+            </p>
+            <br>
+            <h2>Hva tilbyr vi?</h2>
+            <ul>
+                <li>Informasjon om boliger til salgs</li>
+                <li>Tips og råd om oppussing</li>
+                <li>Vedlikehold av bolig</li>
+                <li>Informasjon om boligøkonomi</li>
+                <li>Kontaktinformasjon til Bolig i Bergen A/S</li>
+            </ul>
+        </div>
+        <footer>
+            <p id="footerText">©2026 Bolig i Bergen A/S - semesteroppgave DAT111 gruppe 17</p>
+        </footer>
+    </body>
 </html>

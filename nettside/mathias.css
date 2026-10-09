@@ -1,0 +1,69 @@
+footer {
+    bottom: -800px;
+}
+#introTekst {
+    top: 90px;
+    width: 600px;
+    height: 350px;
+    left: 350px;
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    padding: 20px;
+    border-radius: 20px;
+}
+#eikefjordTekst {
+    top: 500px;
+    width: 400px;
+    height: 670px;
+    left: 100px;
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    padding: 20px;
+    border-radius: 20px;
+}
+#eikefjordKart {
+    width: 400px;
+    border-radius: 100px;
+}
+#spelTekst {
+    top: 500px;
+    width: 400px;
+    height: 830px;
+    left: 700px;
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    padding: 20px;
+    border-radius: 20px;
+}
+#eu4Kart {
+    width: 400px;
+}
+#terrariaBilde {
+     width: 400px;
+ }
+h1 {
+    text-align: center !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-align: center !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    text-align: center !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bilde {
+    margin: 15px;
+    padding: 5px;
+    background-color: #505050;
+    left: 400px;
+    position: absolute;
+    width: 200px;
+    top: 70px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 390px;
+}

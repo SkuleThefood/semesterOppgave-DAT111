@@ -1,0 +1,61 @@
+
+/* Hovedinnhold */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Hovedoverskrift */
+main h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+/* Profilbilde */
+.profilBilde {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto 30px auto;
+    border: 2px solid black;
+}
+
+/* Seksjoner */
+main section {
+    background-color: #f1f1f1;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Overskrifter i seksjonene */
+main h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+/* Tekst */
+main p {
+    line-height: 1.6;
+}
+
+/* Tabell */
+main table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+main th, main td {
+    border: 1px solid #999999;
+    padding: 12px;
+    text-align: left;
+}
+
+main th {
+    background-color: #c4a32b;
+}
