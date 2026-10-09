@@ -1,1 +1,1 @@
-# semesterOppgave-1-DAT111-nr.1
+# semesterOppgave-1-DAT111
